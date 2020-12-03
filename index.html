@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Submission</title>
+	<link rel="stylesheet"  href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="javascript.js"></script>
+</head>
+
+
+<body>
+
+	<script>
+		var paragraf=document.getElementsByClassName("paragraf");
+		console.log(paragraf);
+
+		setInterval(function () {
+			paragraf[0].style.color="brown";
+			paragraf[1].style.color="green";
+			paragraf[2].style.color="red";
+			paragraf[3].style.color="purple";
+
+		setTimeout(function () {
+			paragraf[0].style.color="black";
+			paragraf[1].style.color="black";
+			paragraf[2].style.color="black";
+			paragraf[3].style.color="black";
+		}, 500)
+
+		}, 900);
+	</script>
+
+
+
+	<header>
+		<div id="jumbotron">
+			<h1>Aneka Makanan Palembang</h1>
+		</div>
+
+
+		<nav>
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#Resep">Resep</a></li>
+				<li><a href="#Kontak">Kontak</a></li>
+			</ul>
+			</ul>
+		</nav>
+
+
+		<div id="runningtext">
+			<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">Selamat Datang di Aneka Makanan Palembang
+			</marquee>
+		</div>
+	</header>
+	
+
+
+	<main>
+		<div id="content">
+			<article id="pempek" class="card">
+				<h2>Mengapa Disebut Pempek Kapal Selam?</h2>
+				<img src="Aset\pempek.jpg" class="featured-image" alt="pempek">
+				<h6 class="paragraf">Nama kapal selam diambil dari salah satu cara pengolahannya. Saat adonan pempek kapal selam sudah jadi, pembuat pempek harus merebusnya di dalam air panas. Saat dimasukkan ke dalam air panas, pempek akan tenggelam. Lalu, saat sudah matang, pempek akan mengapung di permukaan. Rupanya, proses ‘tenggelam’ dan ‘mengapung’ adonan pempek itulah yang membuat pempek ini dinamai kapal selam.<br>
+				<a href="#">Baca Selengkapnya>>></a></h6><br>
+			</article>
+			
+			
+		
+			<article id="kemplang" class="card">
+				<h2>Mengenal Kemplang Palembang</h2>
+				<img src="Aset\kemplang.jpg" class="featured-image" alt="kemplang">		
+				<h6 class="paragraf"><br>Di Palembang, bukan hanya pempek yang bikin lidah bergoyang. Kemplangnya pun bisa bikin ketagihan. Kemplang adalah nama kerupuk yang berbahan baku ikan. Sama seperti pempek, dulu, kempalng dibuat dari bahan ikan belida. Namun, saat ini, kemplang dibuat dari ikan gabus. Sebab, ikan belida sudah langka, sehingga mahal sekali harganya. Padahal, jika dibuat dari ikan belida, rasanya lebih gurih. Sebab, daging ikan belida lebih manis dan dagingnya lebih lembut.<br>
+				<a href="#">Baca Selengkapnya>>></a></h6><br>
+			</article>
+			
+
+		
+			<article id="model" class="card">
+				<h2>Model Gandum</h2>
+				<img src="Aset\model.jpg" class="featured-image" alt="model">
+				<h6 class="paragraf"><br>Sama hanya dengan kebanyakan kuliner khas Palembang, seperti Tekwan misalnya, model juga terbuat dari bahan utama berupa ikan tenggiri. Kalau di Palembang, model menjadi makanan selingan yang mengenyangkan. Ada dua jenis model, yaitu model gendum yang dibuat dari tepung terigu saja serta model ikan, yang dicampur dengan ikan giling.<br>
+				<a href="#">Baca Selengkapnya>>></a></h6><br>
+			</article>
+		
+
+			
+			<article id="miecelor" class="card">
+				<h2>Mie Celor</h2>
+				<img src="Aset\miecelor.jpg" class="featured-image" alt="miecelor">		
+				<h6 class="paragraf"><br>Mie celor menjadi kuliner yang menarik, selain mempunyai cita rasa khas, penjual kuliner olahan mie ini hanya ada di palembang, Sumatera Selatan. Mie celor diolah dari bahan-bahan berupa mie telur. Selain mie telur, bahan lain yang digunakan antara lain tauge, daging udang, telur, dan kucai.<br>
+				<a href="#">Baca Selengkapnya>>></a></h6><br>
+			</article>
+		</div>
+
+
+	<aside>
+		<article class="profile">
+			<div id="container">
+				<div class="box">
+					<header>
+						<img src="Aset\profile.jpg">
+						<h2 style="color: white" class="title">Biodata Owner</h2>
+					</header>
+				</div>
+			</div>
+		
+			<div id="container">
+				<div class="box2">
+					<section style="text-align: center">
+						<table>
+							<tr>
+								<th>Nama</th>
+								<td>Nadia Maharani</td>
+							</tr>
+
+							<tr>
+								<th>Pekerjaan</th>
+								<td>Mahasiswi</td>
+							</tr>
+
+							<tr>
+								<th>Jurusan</th>
+								<td>Sistem Informasi</td>
+							</tr>
+
+							<tr>
+								<th>Alamat</th>
+								<td>Palembang</td>
+							</tr>
+
+							<tr>
+								<th>Kode Telepon</th>
+								<td>+62 22</td>
+							</tr>
+						</table>
+					</section>
+				</div>
+			</div>
+		</article>	
+	</aside>
+	</main>
+
+
+
+	<footer>
+		<h6 style="font-size: 15px">Copyright &copy2020, Aneka Makanan Palembang</h6>
+	</footer>
+	
+
+</body>
+</html>
